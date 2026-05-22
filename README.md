@@ -49,7 +49,7 @@
 
 ```bash
 # Cloner le dépôt
-git clone <url-du-repo>
+git clone https://github.com/zougar99/ProComSoft-ERP.git
 cd POS-System-v1
 
 # Installer les dépendances
