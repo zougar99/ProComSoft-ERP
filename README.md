@@ -4,12 +4,16 @@
 
 ## ✨ Fonctionnalités
 
+<<<<<<< HEAD
 ### 🏪 Point de vente & ERP
+=======
+>>>>>>> 5058b63e17bc5c42e66a4f03a260eae69ba8e457
 - 🛒 **Point de vente (POS)** : Interface de caisse avec panier, recherche produits, remises
 - 👥 **Gestion des clients** : CRM complet avec historique des ventes
 - 📦 **Gestion des produits** : Inventaire avec suivi des stocks et alertes de réapprovisionnement
 - 🧾 **Facturation** : Création et gestion des factures avec calcul de TVA
 - 💳 **Paiements** : Enregistrement des paiements (espèces, carte, chèque, virement)
+<<<<<<< HEAD
 - 📥 **Achats** : Gestion des commandes fournisseurs avec réception de stock
 - 🏷️ **Promotions** : Campagnes promotionnelles avec coupons
 - ⭐ **Fidélité** : Programme de points de fidélité clients
@@ -33,6 +37,13 @@
 - 💵 **Prévision de trésorerie** : Projection des flux entrants/sortants
 - 🏆 **Valeur client (CLV)** : Calcul et segmentation de la valeur client
 - ❤️ **Score de santé** : Indicateur global de santé de l'entreprise (0-100)
+=======
+- 📊 **Tableau de bord** : Statistiques en temps réel (ventes du jour, stocks faibles)
+- 📈 **Rapports** : Analyse des ventes par période
+- 🔐 **Utilisateurs** : Gestion des comptes et rôles (admin, manager, user, cashier)
+- 💾 **Sauvegarde/Restauration** : Backup et restauration de la base de données
+- 🌍 **Multilingue** : Arabe, Français, Anglais (détection automatique)
+>>>>>>> 5058b63e17bc5c42e66a4f03a260eae69ba8e457
 
 ## 🚀 Installation
 
@@ -58,8 +69,11 @@ python main.py
 ```
 POS-System-v1/
 ├── main.py              # 🚀 Point d'entrée
+<<<<<<< HEAD
 ├── ai_module.py         # 🤖 Module IA complet (prévisions, recommandations, détection)
 ├── ai_insights_tab.py   # 🤖 Interface des insights IA
+=======
+>>>>>>> 5058b63e17bc5c42e66a4f03a260eae69ba8e457
 ├── ui/                  # 🎨 Interface utilisateur (login, main window)
 ├── modules/             # 🧩 Modules métier (sales, crm, inventory, purchases)
 ├── services/            # ⚙️ Couche service
@@ -72,6 +86,7 @@ POS-System-v1/
 └── locales/             # 🌐 Fichiers de traduction JSON
 ```
 
+<<<<<<< HEAD
 ## 🤖 AI Module - Classes disponibles
 
 | Classe | Méthodes | Description |
@@ -84,6 +99,8 @@ POS-System-v1/
 | `InventoryIntelligence` | `reorder_recommendations()`, `stock_health_summary()` | Gestion intelligente des stocks |
 | `BusinessIntelligence` | `cash_flow_forecast()`, `business_health_score()`, `revenue_breakdown()` | Santé globale de l'entreprise |
 
+=======
+>>>>>>> 5058b63e17bc5c42e66a4f03a260eae69ba8e457
 ## 🗄️ Base de données
 
 SQLite avec SQLAlchemy ORM. Tables principales :
